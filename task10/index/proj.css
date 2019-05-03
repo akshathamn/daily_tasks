@@ -30,6 +30,15 @@
 }
 #a:hover
 {
+	    background-color: pink;
+}
+#b:hover{
+background-color: pink;
+}
+#c:hover{
+	background-color: pink;
+}
+#d:hover{
 	background-color: pink;
 }
 #a{
