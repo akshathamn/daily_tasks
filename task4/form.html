@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>forms</title>
+	</head>
+	<body>
+		<h1>status</h1>
+		<form>
+		name:
+		<input name="name" value=""><br>
+		phone:
+		<input name="phone" value=""><br>
+		email:
+		<input name="email" value=""><br>
+		<fieldset>
+		<legend>which taxi do you require ? </legend><br>
+		<input type="radio" name="vehicle" value="car" >car<br>
+        <input type="radio" name="vehicle" value="van"> van<br>
+        <input type="radio" name="vehicle" value="tuk tuk"> tuk tuk<br>
+    </fieldset>
+        <fieldset>
+        <legend>extras</legend><br>
+        <input type="checkbox" name="vehicle" value="baby seat" >car<br>
+        <input type="checkbox" name="vehicle" value="wheelchair access"> van<br>
+        <input type="checkbox" name="vehicle" value="stock tip"> tuk tuk<br>
+    </fieldset>
+        pick up date/time
+        <input name="d/t" value="dd/mm/yyyy"><br>
+        pick up place
+         <select name="carlist" form="carform">
+  <option value="select one">select one</option>
+</select><br>
+        drop off place:
+        <input name="dop" value=""><br>
+        special instructions:
+        <input name="sp" value=""><br>
+        <input name="button" type="button" value="submit booking"></input>
+        </form>
+	</body>
+</html>
