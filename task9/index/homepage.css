@@ -1,0 +1,33 @@
+body{
+	background-color: bisque;
+}
+	#a{
+	background-color: green;
+	height: 50px;
+	font-size: 25px;
+}
+ img{
+	float: right;
+	width: 100px;
+	height: 150px;
+
+}
+
+#cd{
+	text-align: left;
+	margin-left: 330px;
+	font-style: italic;
+
+}
+
+#ab{
+	background-color:beige;
+}
+#new{
+	    height: 164px;
+	    background-color: coral;
+}
+footer{
+	    padding-left: 589px;
+	    background-color: pink;
+}
