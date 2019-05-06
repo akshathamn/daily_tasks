@@ -1,0 +1,38 @@
+.flex_container{
+  display:flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 200px;
+      height: 300px;
+     
+}
+     
+
+.flex_container div{
+	border: solid;
+	border-color: gray;
+
+	margin: 10px;
+	padding: 20px;
+	font-size: 10px;
+	height: 500px;
+	    width: 285px;
+	    background-color: bisque;
+
+}
+img{
+	
+	width: 153px;
+	height: 178px;
+}
+.ab{
+	display: inline-flex;
+	justify-content: center;
+	background-color: gray;
+	align-items: center;
+}
+p{
+	font-size: 20px;
+}
