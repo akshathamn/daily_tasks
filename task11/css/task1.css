@@ -1,38 +1,58 @@
-.flex_container{
+.flex_container
+{
   display:flex;
-  
   justify-content: center;
   align-items: center;
   flex-direction: row;
   margin-top: 200px;
-      height: 300px;
+  height: 300px;
      
 }
-     
-
-.flex_container div{
+.flex_container div
+{
 	border: solid;
 	border-color: gray;
-
 	margin: 10px;
 	padding: 20px;
 	font-size: 10px;
 	height: 500px;
-	    width: 285px;
-	    background-color: bisque;
-
+	width: 285px;
+	background-color: bisque;
 }
-img{
-	
+img
+{
 	width: 153px;
 	height: 178px;
 }
-.ab{
+.ab
+{
 	display: inline-flex;
 	justify-content: center;
 	background-color: gray;
 	align-items: center;
 }
-p{
+p
+{
 	font-size: 20px;
+}
+#a
+{
+    height: 420px;
+	margin-bottom: 100px;
+}
+#c
+{
+    height: 400px;
+    margin-bottom: 108px;
+}
+#d
+{
+	height: 371px;
+    margin-bottom: 139px
+	
+}
+#f
+{
+    height: 409px;
+    margin-bottom: 100px;
 }
