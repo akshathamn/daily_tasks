@@ -1,0 +1,57 @@
+.flex_container{
+  display: flex;
+flex-flow: row wrap;
+ /* align-items: flex-start;*/
+  
+  height: 600px;
+  
+}
+#a
+{
+ 	display: flex;
+	background-color:#8bc34a;
+    justify-content: center;
+	font-size: 30px;
+	height: 50px;
+	    width:1492px;
+
+}
+
+#d
+{
+	background-color: #ffe000;
+	flex-basis:  1068px;
+    height:508px;
+	
+}
+#b
+{
+	background-color: bisque;
+	   
+	/*align-self: center;*/
+	height: 508px;
+	flex-basis: 250px;
+}
+#c
+{
+	background-color:#868e10;
+	height: 508px;
+	flex-basis: 174px;
+}
+		
+.change{
+	height: 100px;
+
+}
+#e{
+background-color:#8bc34a;
+	font-size: 20px;
+	height: 50px;
+	width:1492px;
+
+}
+img
+{
+	width: 593px;
+	height: 346px;
+}

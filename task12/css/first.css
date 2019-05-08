@@ -1,9 +1,9 @@
-.flex_container
+div
 {
   display:flex;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   /*margin-top: 200px;*/
   height: 600px;
   background-color: bisque;  
@@ -16,7 +16,32 @@
 	font-size: 10px;
 	height: 10px;
 	    width: 285px;
+
 }
-#a{
-	padding-left: 50px;
+#g{
+	flex-direction: column;
+	margin-left: 300px;
 }
+.abc
+{
+	/*margin-left: 20px;*/
+	margin-top: -58px;
+}
+.ab{
+	margin-top: 
+}
+/*#b{
+	margin-top: 
+}*/
+.a{
+	margin-top: -16px;
+    margin-left: 123px;
+	
+}
+/*.b{
+	margin-left: 123px;
+}
+#g{
+	margin-left: 100px;
+}
+*/
