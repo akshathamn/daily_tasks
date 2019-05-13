@@ -1,0 +1,262 @@
+.container
+{
+	display:grid;
+	background-color:black ;
+	grid-template-columns:300px 300px 50px 300px 300px;
+	grid-template-rows:200px 200px  200px 200px; 
+	
+	/*grid-row-gap: 50px;
+	grid-column-gap: 40px;*/
+	padding: 20px;
+	grid-gap: 50px;
+	/*background-color: black;*/
+}
+.container > div
+{
+	background-color: white;
+}
+#a{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+border: 3px solid gray;
+
+}
+#a > div{
+background-color: #429bf4;
+border-radius: 5px 5px;
+border: solid;
+}
+#b{
+	display: grid;
+	grid-template-rows:auto auto auto; ;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	border: solid;
+	border: 3px solid gray;
+}
+#b > div{
+background-color: bisque;
+border-radius: 5px 5px;
+border: solid;
+}
+#c{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	grid-column-start: 4;
+	border: solid;
+	border: 3px solid gray;
+}
+#c> div{
+background-color: #429bf4;
+border-radius: 5px 5px;
+border: solid;
+}
+#d{
+	display: grid;
+	grid-template-rows: auto auto auto ;
+	grid-template-columns:auto auto auto auto; 
+	grid-gap: 10px;
+	border: solid;
+	border: 3px solid gray;
+}
+#d > div{
+background-color: bisque;
+border-radius: 5px 5px;
+border: solid;
+margin-bottom: 21px;
+}
+.e{
+	display: grid;
+	grid-template-rows: auto auto auto; 
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	grid-row-start: 3;
+	border: solid;
+	border: 3px solid gray;
+}
+.e > div{
+background-color: bisque;
+border-radius: 5px 5px;
+border: solid;
+}
+.f{
+	display: grid;
+	grid-template-rows:auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	grid-row-start: 3;
+	border: solid;
+	border: 3px solid gray;
+	/*grid-column-start: 6;*/
+}
+.f > div{
+background-color: bisque;
+border-radius: 5px 5px;
+border: solid;
+}
+#h{
+	display: grid;
+	grid-template-rows:auto auto auto;
+	grid-template-columns:auto auto auto auto;
+	grid-gap: 20px;
+	grid-column-start: 5;
+	grid-row-start: 3;
+	border: solid;
+	border: 3px solid gray;
+}
+#h> div{
+background-color:bisque;
+border-radius: 5px 5px;
+border: solid;
+margin-left: 20px;
+
+}
+#g{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	grid-row-start: 3;
+	grid-column-start: 4;
+	border: solid;
+	border: 3px solid gray;
+	
+}
+#g > div{
+background-color: #429bf4;
+border-radius: 5px 5px;
+border: solid;
+margin-left: 20px;
+}
+.a1
+{
+	grid-row-start: 2;
+	margin-left: 10px;
+
+}
+#a2
+{
+	grid-row-start: 2;
+	grid-column-start:2;
+	
+}
+
+#a3{
+	grid-row: 2;
+	grid-column-start:3; 
+}
+#a4
+{
+	grid-row: 2;
+	grid-column-start:4; 
+	margin-right: 20px;
+}
+#a5
+{
+	grid-row: 2;
+	grid-column-start:2;
+	margin-left: 52px; 
+}
+#a6
+{
+	grid-row: 3;
+	grid-column-start:2; 
+	margin-left: 52px;
+}
+#a7
+{
+	grid-row: 4;
+	grid-column-start:2; 
+	margin-left: 52px;
+}
+.aa
+{
+	grid-row: 2;
+	grid-column-start:1; 
+	margin-left: 86px;
+	background-color:#429bf4; 
+}
+.bb
+{
+	grid-row: 2;
+	grid-column-start:2; 
+}
+.cc
+{
+	grid-row: 2;
+	grid-column-start:3; 
+	background-color: #429bf4;
+
+}
+#dd
+{
+	grid-row: 2;
+	grid-column: 1/span 2;
+}
+#ee
+{
+	grid-row: 2;
+	grid-column-start:3 ;
+}
+#ff
+{
+	grid-row: 2;
+	grid-column-start:4;
+	margin-right: 20px; 
+}
+.gg
+{
+	grid-row: 2;
+	grid-column: 1/span 2;
+}
+.ge
+{
+	grid-row: 2;
+	grid-column: 3/span 2;
+}
+.gh
+{
+	grid-row:2;
+	grid-column: 5/span 2; 
+	margin-right: 20px;
+}
+#q
+{
+	background-color: black;
+	text-align: center;
+	grid-row-start: 2;
+	grid-column: 1/span 2;
+    color:white;
+	font-size: 40px;
+}
+#z
+{
+	background-color: black;
+	text-align: center;
+	grid-row-start: 2;
+	grid-column: 4/span 2;
+    color:white;
+	font-size: 40px;
+}
+#q1
+{
+	background-color: black;
+	text-align: center;
+	grid-row-start: 4;
+	grid-column: 1/span 2;
+    color:white;
+	font-size: 40px;
+}
+#z1
+{
+	background-color: black;
+	text-align: center;
+	grid-row-start: 4;
+	grid-column: 4/span 2;
+     color:white;
+	font-size: 40px;
+}
