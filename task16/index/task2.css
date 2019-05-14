@@ -1,0 +1,288 @@
+.grid_container
+{
+	display: grid;
+	grid-template-columns:200px 200px 200px 200px ;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+	background-color: #b7b7b7;
+	padding: 20px 20px;
+	grid-column-gap: 40px;
+	
+}
+.grid_container >div
+{
+	display: grid;
+	height: 110px;
+	width: 200px;
+}
+.i1
+{
+	
+	grid-area:1/1/1/2;
+	
+}
+.i2
+{
+	
+	grid-area: 1/2/1/3;
+}
+.i3
+{
+	grid-area:	1/3/1/4;
+
+}
+.i4
+{
+   grid-area: 1/4/1/5;
+   
+}
+.i5
+{
+   grid-area: 2/1/2/2;
+   border-left: 3px solid  yellow;
+   background-color: white;
+
+
+}
+img
+{
+	border-radius: 100px 100px;
+	height: 40px;
+	width: 40px;
+	margin-left: 150px;
+	
+	
+}
+.i6
+{
+   grid-area: 2/2/2/3;
+   
+   background-color: white; 
+border-left: 3px solid  green;
+}
+.i7
+{
+   grid-area: 2/3/2/4;
+  
+   background-color: white;
+   border-left: 3px solid  yellow; 
+
+}
+.i8
+{
+	
+   background-color: white; 
+grid-area: 2/4/2/5;
+}
+.i9
+{
+	
+   background-color: white;
+   grid-area: 5/1/5/2;
+   border-left: 3px solid  red;
+
+}
+.i10
+{
+	
+   background-color: white;
+   grid-area: 5/2/5/3; 
+
+}
+.i11
+{
+	
+   background-color: white;
+   grid-area: 5/3/5/4;
+   border-left: 3px solid green; 
+
+}
+.i12
+{
+	
+   background-color: white; 
+   grid-area: 8/1/8/2;
+   
+
+
+}
+.i13
+{
+
+   background-color: white; 
+ grid-area: 8/2/8/3;
+   
+}
+.i14
+{
+	
+   background-color: white; 
+ grid-area: 8/3/8/4;
+   border-left: 3px solid  red;
+
+}
+.i15
+{
+	
+   background-color: white; 
+ grid-area: 11/1/11/2;
+   
+
+}
+.i16
+{
+	
+   background-color: white; 
+ grid-area: 11/2/11/3;
+   border-left: 3px solid yellow;
+
+}
+.i17
+{
+	
+   background-color: white; 
+ grid-area: 11/3/11/4;
+border-left: 3px solid  yellow;
+}
+.i18
+{
+	
+   background-color: white; 
+ grid-area: 14/1/14/2;
+ border-left: 3px solid  yellow;
+}
+.i19
+{
+
+   background-color: white; 
+ grid-area: 14/2/14/3;
+}
+.i20
+{
+	border: solid gray;
+   background-color: white; 
+ grid-area: 14/3/14/4;
+ border-left: 3px solid  green;
+}
+.i21
+{
+	
+   background-color: white; 
+ grid-area: 17/2/17/3;
+}
+.i22
+{
+	
+   background-color: white; 
+ grid-area: 17/3/17/4;
+ border-left: 3px solid  green;
+}
+.im1
+{
+	    margin-left: 97px;
+	    margin-top: -51px; 
+}
+.im2
+{
+	    margin-left: 104px;
+	    margin-top: -58px; 
+}
+.im5{
+	    margin-top: -40px;
+    margin-left: 105px;
+
+}
+.im3
+{
+	    margin-right: -73px;
+    margin-left: 54px;
+    margin-bottom: -67px;
+}
+.im4
+{
+	margin-top: -5px;
+
+}
+.im7
+{
+margin-left: 92px;
+}
+.im6
+{
+    margin-top: -43px;
+}
+.im8
+{
+	margin-left: 98px;
+   
+    margin-top: 15px
+}
+.im9
+{
+	margin-top: -42px;
+}
+.im10
+{
+	margin-left: 108px;
+    margin-top: -43px;
+    
+}
+.im11
+{
+	    margin-top: -33px;
+
+}
+.im12
+{
+	margin-top: -51px;
+}
+.im13
+{
+	
+    margin-left: 99px;
+	margin-top: -50px;
+}
+.im14
+{
+	margin-top: -54px;
+}
+.im15
+{
+	    margin-top: -42px;
+	}
+
+.im16{
+margin-top: -50px;
+}
+.im17
+{
+	margin-top: -48px;
+}
+.im18
+{
+	    margin-top: -49px;
+}
+.im19
+{
+	margin-top: -46px;
+}
+.im20
+{
+	    margin-top: -81px;
+}
+.im21
+{
+	margin-top: -66px;
+}
+.im22
+{
+	margin-top: -66px;
+}
+.im23
+{
+margin-top: -45px;
+}
+p
+{
+	color: blue;
+
+}
